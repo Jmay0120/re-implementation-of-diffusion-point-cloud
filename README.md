@@ -32,7 +32,7 @@ python train_ae.py # 训练了5000个epoch
 
 ### 训练损失展示：
 
-![image-20250624210758209](C:\Users\Hakuna Matata\AppData\Roaming\Typora\typora-user-images\image-20250624210758209.png)
+![train_ae_loss](logs_ae/train_ae_loss.png)
 
 ## 四、测试
 
@@ -166,10 +166,11 @@ visualize_and_save_pointclouds(all_recons.to(args.device), num_show=4)
 | **Implementation** |   46.25%   |   4.24%    |    62.55%    |
 
 ### 扩散模型生成可视化：
+**airplane:**
+![airplane](logs_ae/airplane.png)
 
-![image-20250625110849680](C:\Users\Hakuna Matata\AppData\Roaming\Typora\typora-user-images\image-20250625110849680.png)
-
-![image-20250625110935245](C:\Users\Hakuna Matata\AppData\Roaming\Typora\typora-user-images\image-20250625110935245.png)
+**chair:**
+![chair](logs_ae/chair.png)
 
 ## Citation
 
