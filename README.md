@@ -164,8 +164,8 @@ visualize_and_save_pointclouds(all_recons.to(args.device), num_show=4)
 
 |       Method       | COV-CD (↑) | MMD-CD (↓) | 1-NNA-CD (↓) |
 | :----------------: | :--------: | :--------: | :----------: |
-|    **Original**    |   48.71%   |   3.276%   |    64.83%    |
-| **Implementation** |   46.25%   |   4.24%    |    62.55%    |
+|    **Original(PontNet)**    |   48.71%   |   3.276%   |    64.83%    |
+| **Implementation(PointNet)** |   46.25%   |   4.24%    |    62.55%    |
 
 ### 扩散模型生成可视化：
 **airplane:**
