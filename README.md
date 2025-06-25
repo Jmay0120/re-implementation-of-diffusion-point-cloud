@@ -4,6 +4,8 @@
 
 使用扩散模型进行3D点云生成：首先训练PointNet编码器，将3D点云编码为潜在向量。然后以潜在向量为条件，使用扩散模型将随机噪声去噪为对应的点云
 
+![structure](logs_ae/structure.png)
+
 ## 一、环境配置
 
 ```
@@ -167,9 +169,11 @@ visualize_and_save_pointclouds(all_recons.to(args.device), num_show=4)
 
 ### 扩散模型生成可视化：
 **airplane:**
+
 ![airplane](logs_ae/airplane.png)
 
 **chair:**
+
 ![chair](logs_ae/chair.png)
 
 ## Citation
